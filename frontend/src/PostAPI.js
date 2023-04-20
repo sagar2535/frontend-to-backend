@@ -43,7 +43,7 @@ const Backend = () => {
         <label>Title:</label>
         <input type='text' value={title} onChange={handleTitleChange} />
         <label>Content:</label>
-        <textarea value={content} onChange={handleContentChange} />
+        <input value={content} onChange={handleContentChange} />
         <button type='submit'>Create Post</button>
       </form>
       <ul>
