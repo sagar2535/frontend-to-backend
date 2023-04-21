@@ -1,10 +1,12 @@
+import NewPostApi from './NewPostApi';
 import './App.css';
-import Backend from './PostAPI';
+// import Backend from './PostAPI';
 
 function App() {
   return (
     <div className='App'>
-      <Backend />
+      {/* <Backend /> */}
+      <NewPostApi />
     </div>
   );
 }
